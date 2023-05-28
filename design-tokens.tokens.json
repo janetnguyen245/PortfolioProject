@@ -1,0 +1,2987 @@
+{
+  "color": {
+    "background": {
+      "default": {
+        "$gdc-c-bg": {
+          "description": "- Default page background\n\n------------------------\nNeutral | \ncolor-neutral 30\n#F8F8F9",
+          "type": "color",
+          "value": "#f8f8f9ff",
+          "blendMode": "normal",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:7e5c733ab3c64f89cf2ff2621cde9ac2defe1bdd,",
+              "exportKey": "color"
+            }
+          }
+        },
+        "$gdc-c-sf-01": {
+          "description": "- On Background\n\nUsing for: Input field\n\n-----------------------\nNeutral | \ncolor-neutral white\n#FFFFFF",
+          "type": "color",
+          "value": "#ffffffff",
+          "blendMode": "normal",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:2db21c47cdabd605dc2ff7f47d46985975c11cc8,",
+              "exportKey": "color"
+            }
+          }
+        },
+        "$gdc-c-sf-02": {
+          "description": "- Surface-level-02\n\n------------------------\nNeutral | color-neutral 50 #F4F4F5",
+          "type": "color",
+          "value": "#f4f4f5ff",
+          "blendMode": "normal",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:16f8143f78b5425f544883a695abdf53c58c1bf0,",
+              "exportKey": "color"
+            }
+          }
+        },
+        "$gdc-c-sf-brand-01": {
+          "description": "- Surface-Primary color\n\n--------------------\nBranding Color |\ncolor-branding-primary 500\n#553CA5",
+          "type": "color",
+          "value": "#553ca5ff",
+          "blendMode": "normal",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:5797d0ed275dcaf919b18338f8cabdeeb8c4a756,",
+              "exportKey": "color"
+            }
+          }
+        },
+        "$gdc-c-sf-brand-02": {
+          "description": "- On Background\n- On surface-level-01\n(Card color, on sf 01)\n--------------------------\nBranding Color | \ncolor-branding-primary 100\n#E5DAFA",
+          "type": "color",
+          "value": "#f0e8fcff",
+          "blendMode": "normal",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:6dddc67b554f4ad69d40b880a9198b19a82682c8,",
+              "exportKey": "color"
+            }
+          }
+        },
+        "$gdc-c-sf-dark": {
+          "description": "Solid-High contrast\nTooltips bg\n-------------------------\nBranding Color\ncolor-neutral 900\n#1F2533",
+          "type": "color",
+          "value": "#1f2533ff",
+          "blendMode": "normal",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:b1ccd9c1e970fab3bf767e9d8a605958f1ac6037,",
+              "exportKey": "color"
+            }
+          }
+        }
+      },
+      "interactive": {
+        "$gdc-ci-sf-hover-brand": {
+          "description": "- Hover on card\n\n------------------------\nBranding Color | \ncolor-branding-primary 20\n#F9F5FF",
+          "type": "color",
+          "value": "#f9f5ffff",
+          "blendMode": "normal",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:99ed18aad2298b087a7df2867cfdf48fbc93fe53,",
+              "exportKey": "color"
+            }
+          }
+        }
+      }
+    },
+    "solid": {
+      "default": {
+        "$gdc-c-solid-default-01": {
+          "description": "- Fields\n- Button-Secondary\n- Button-Border\n- Togger\n- Segmented\n\n--------------------------\nNeutral | \ncolor-neutral white\n#FFFFFF",
+          "type": "color",
+          "value": "#ffffffff",
+          "blendMode": "normal",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:ebdd1bb53eb40860370f10efbfc2eb708f06f98a,",
+              "exportKey": "color"
+            }
+          }
+        },
+        "$gdc-c-solid-default-02": {
+          "description": "- Chip-01\n- Input Fields Read Only\n\n--------------------------\nNeutral | \ncolor-neutral 100\n#E9E9EB",
+          "type": "color",
+          "value": "#e9e9ebff",
+          "blendMode": "normal",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:0ad96a0793b7436fe684e620719fe3456cb2fd16,",
+              "exportKey": "color"
+            }
+          }
+        },
+        "$gdc-c-solid-default-03": {
+          "description": "Table header bg\nchip\n----------------------\nNeutral | \ncolor-neutral 50\n#F4F4F5",
+          "type": "color",
+          "value": "#f4f4f5ff",
+          "blendMode": "normal",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:2a0175eaf7b8fb863dd9167a4152c62ae5ec43db,",
+              "exportKey": "color"
+            }
+          }
+        },
+        "$gdc-c-solid-brand-01": {
+          "description": "- Button Primary\n- Button - Floating\n- Chip 03\n\n--------------------------\nBranding Color |\ncolor-branding-primary 500\n#553CA5",
+          "type": "color",
+          "value": "#553ca5ff",
+          "blendMode": "normal",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:f7bd23d57896e896d97e2da345b507d4a7750b9f,",
+              "exportKey": "color"
+            }
+          }
+        },
+        "$gdc-c-solid-brand-02": {
+          "description": "- Segmented-02\n- Chip-02\n\n------------------------\nBranding Color | \ncolor-branding-primary 50\n#F0E8FC",
+          "type": "color",
+          "value": "#f0e8fcff",
+          "blendMode": "normal",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:24b4ce7aff05a89fc344b1732abf070fd8aaeeee,",
+              "exportKey": "color"
+            }
+          }
+        },
+        "$gdc-c-solid-dark": {
+          "description": "",
+          "type": "color",
+          "value": "#1f2533ff",
+          "blendMode": "normal",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:11d7cc082fb6e22e9c0b1f991d81a58c22e62d3e,",
+              "exportKey": "color"
+            }
+          }
+        }
+      },
+      "interactive": {
+        "$gdc-ci-solid-hover-01": {
+          "description": "hover on\n- Button-Border-02\n- Segmented-02\n- Floating/Chip\n- Row\n\n----------------------\nNeutral | \ncolor-neutral 100\n#E9E9EB",
+          "type": "color",
+          "value": "#e9e9ebff",
+          "blendMode": "normal",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:23fd5a7dae7db0d5c4d70996987bd7e080b766b9,",
+              "exportKey": "color"
+            }
+          }
+        },
+        "$gdc-ci-solid-hover-brand-01": {
+          "description": "Hove on\n- Button-Primary\n- Tab\n- Segmentted\n\n-------------------------\nBranding Color |\ncolor-branding-primary 600\n#402B8D",
+          "type": "color",
+          "value": "#402b8dff",
+          "blendMode": "normal",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:fafc4d3db6bc532359838b62904319daa4b4afcc,",
+              "exportKey": "color"
+            }
+          }
+        },
+        "$gdc-ci-solid-hover-brand-02": {
+          "description": "Hover:\n- Button Line Color Brand\n\n---------------------------\nBranding Color | \ncolor-branding-primary 50\n#F0E8FC",
+          "type": "color",
+          "value": "#f0e8fcff",
+          "blendMode": "normal",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:9105db7d2c9eeb099b6d62c888a613a0b584b0c5,",
+              "exportKey": "color"
+            }
+          }
+        },
+        "$gdc-ci-solid-press-01": {
+          "description": "Press on\n- Button-Border-02\n- Segmented-02\n- Floating/Chip\n- Row\n\n----------------------\nNeutral | \ncolor-neutral 200\n#D2D3D6",
+          "type": "color",
+          "value": "#d2d3d6ff",
+          "blendMode": "normal",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:eb8240808ac8d11cfcab1aff3fcb6eaa9f144c01,",
+              "exportKey": "color"
+            }
+          }
+        },
+        "$gdc-ci-solid-press-brand-01": {
+          "description": "Press on\n- Button-Primary\n\n-----------------\nBranding Color |\ncolor-branding-primary 700\n#2E1E76",
+          "type": "color",
+          "value": "#2e1e76ff",
+          "blendMode": "normal",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:7be3145272d595883aace62868e14fe7be596f1e,",
+              "exportKey": "color"
+            }
+          }
+        },
+        "$gdc-ci-solid-press-brand-02": {
+          "description": "Press on\n- Button Line Color Brand\n\n---------------------------\nBranding Color | \ncolor-branding-primary 100\n#E5DAFA",
+          "type": "color",
+          "value": "#e5dafaff",
+          "blendMode": "normal",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:8056b44000e50d151d813af377270c408fc39df2,",
+              "exportKey": "color"
+            }
+          }
+        },
+        "$gdc-ci-solid-active-brand-01": {
+          "description": "Active/ Selected:\n- Segmented-02\n- Tab\n\n---------------------\nBranding Color |\ncolor-branding-primary 500\n#553CA5",
+          "type": "color",
+          "value": "#553ca5ff",
+          "blendMode": "normal",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:5a2a964660f6614808155a93a0bce8968fcc772b,",
+              "exportKey": "color"
+            }
+          }
+        },
+        "$gdc-ci-solid-active-brand-02": {
+          "description": "Segmented-01\n\n--------------------------\nBranding Color | \ncolor-branding-primary 100\n#E5DAFA",
+          "type": "color",
+          "value": "#e5dafaff",
+          "blendMode": "normal",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:3fddc5044bcffa71799842368c20d9263f61d2c9,",
+              "exportKey": "color"
+            }
+          }
+        },
+        "$gdc-ci-solid-inactive-01": {
+          "description": "Inactive/ Unselected:\n- Segmented-01\n- Segmented-02\n\nDisable Button Border\n----------------------------Neutral | \ncolor-neutral white\n#FFFFFF",
+          "type": "color",
+          "value": "#ffffffff",
+          "blendMode": "normal",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:432359ca46b62363bbc998ad6464799da635abac,",
+              "exportKey": "color"
+            }
+          }
+        },
+        "$gdc-ci-solid-disable-01": {
+          "description": "Button disable\n\n--------------------------\nNeutral | \ncolor-neutral 100\n#E9E9EB",
+          "type": "color",
+          "value": "#eaeaeaff",
+          "blendMode": "normal",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:859697425c2fd1688569e6b36ca8de596c91d13a,",
+              "exportKey": "color"
+            }
+          }
+        }
+      }
+    },
+    "line": {
+      "default": {
+        "$gdc-c-line-01": {
+          "description": "Using for:\nDivide each item in list, high contrast\nBorder input\n\n---------------------------\nNeutral |\ncolor-neutral 300\nBCBEC2",
+          "type": "color",
+          "value": "#bcbec2ff",
+          "blendMode": "normal",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:b9a2c5d7d20d7011b3bd5afffe3df87433d235d7,",
+              "exportKey": "color"
+            }
+          }
+        },
+        "$gdc-c-line-02": {
+          "description": "Using for:\n- Divide each item in list, low contrast\n\n----------------------------\nNeutral |\ncolor-neutral 100\n#E9E9EB",
+          "type": "color",
+          "value": "#e9e9ebff",
+          "blendMode": "normal",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:60e493d70bc1bddca4e7669350a7f93a948ec461,",
+              "exportKey": "color"
+            }
+          }
+        },
+        "$gdc-c-line-03": {
+          "description": "Using for:\nDark solid border\nTooltips border\nTable start. end line\n-------------------\nNeutral |\ncolor-neutral 600\n#797C85",
+          "type": "color",
+          "value": "#797c85ff",
+          "blendMode": "normal",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:b3492e4a5f626ae8dcd9428f4263b3fc1af0159f,",
+              "exportKey": "color"
+            }
+          }
+        },
+        "$gdc-c-line-brand": {
+          "description": "High contrast border\n\n----------------------------\nBranding Color \ncolor-branding-primary 500\n#553CA5",
+          "type": "color",
+          "value": "#553ca5ff",
+          "blendMode": "normal",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:8988648c96b5ff0896c4db7cbfb3c129586769ac,",
+              "exportKey": "color"
+            }
+          }
+        },
+        "$gdc-c-line-white": {
+          "description": "Using for:\n- Avatar\n----------------------------\nNeutral |\ncolor-neutral-white\nFFFFFF",
+          "type": "color",
+          "value": "#ffffffff",
+          "blendMode": "normal",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:25a34530250931e86c3217093626161857a65104,",
+              "exportKey": "color"
+            }
+          }
+        }
+      },
+      "interactive": {
+        "$gdc-ci-line-active-brand": {
+          "description": "Active Low contrast border\n\n----------------------------\nBranding Color \ncolor-branding-primary 500\n#553CA5",
+          "type": "color",
+          "value": "#553ca5ff",
+          "blendMode": "normal",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:ec418bdc1136d5708f3d01087c83e5b1c4128b80,",
+              "exportKey": "color"
+            }
+          }
+        },
+        "$gdc-ci-line-disable-01": {
+          "description": "Using for disable state:\nBorder input\nBorder btn\n-------------------------\nNeutral |\ncolor-neutral 200\n##D2D3D6",
+          "type": "color",
+          "value": "#d2d3d6ff",
+          "blendMode": "normal",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:e7cc0b992c4a1a8838e63ff67fd69d1c6cba6572,",
+              "exportKey": "color"
+            }
+          }
+        },
+        "$gdc-ci-line-disable-brand": {
+          "description": "Using for disable state:\nBorder btn\n--------------------------\nBranding Color | \ncolor-branding-primary 200\n#CAB7F6",
+          "type": "color",
+          "value": "#cab7f6ff",
+          "blendMode": "normal",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:b002ad9d02cd0608bc071922984eb59e9b0fdc30,",
+              "exportKey": "color"
+            }
+          }
+        }
+      }
+    },
+    "text": {
+      "default": {
+        "$gdc-c-txt-display-01": {
+          "description": "Input filled\n\n----------------------------\nBranding Color\ncolor-neutral 900\n#1F2533",
+          "type": "color",
+          "value": "#1f2533ff",
+          "blendMode": "normal",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:d2f90bbfcfe20b15e308bf700b253e66192fdf7c,",
+              "exportKey": "color"
+            }
+          }
+        },
+        "$gdc-c-txt-display-02": {
+          "description": "- Button-Boder-01 text \n- Button-Boderless text \n\n----------------------------\nNeutral |\ncolor-neutral 800\n#4C515C",
+          "type": "color",
+          "value": "#4c515cff",
+          "blendMode": "normal",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:2fa50e51193b5af56a39c559084f331e001066b4,",
+              "exportKey": "color"
+            }
+          }
+        },
+        "$gdc-c-txt-display-03": {
+          "description": "Input hint text\n\n----------------------------\nNeutral |\ncolor-neutral 500\n#8F9299",
+          "type": "color",
+          "value": "#8f9299ff",
+          "blendMode": "normal",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:ed4c751e515657c7d08cc70a879bb4d701bc0a5c,",
+              "exportKey": "color"
+            }
+          }
+        },
+        "$gdc-c-txt-oncolor": {
+          "description": "Text on Primary Button\n\n----------------------------\nNeutral | \ncolor-branding-white\n#FFFFFF",
+          "type": "color",
+          "value": "#ffffffff",
+          "blendMode": "normal",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:114a6df9ca21be03763cbbe499e39a4ac50d9634,",
+              "exportKey": "color"
+            }
+          }
+        },
+        "$gdc-c-txt-brand": {
+          "description": "- Button-Boder-02 text\n- Link\n\n-------------------\nBranding Color |\ncolor-branding-primary 500\n#553CA5",
+          "type": "color",
+          "value": "#553ca5ff",
+          "blendMode": "normal",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:1888ebc23e8cbfce7915720e5835dfd5ce4746a6,",
+              "exportKey": "color"
+            }
+          }
+        },
+        "$gdc-c-txt-ondark": {
+          "description": "Use for:\nText on dark bg, text button on notification",
+          "type": "color",
+          "value": "#a58ce3ff",
+          "blendMode": "normal",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:60e1d59376a1883554c906c71929f438eb86e57d,",
+              "exportKey": "color"
+            }
+          }
+        }
+      },
+      "interactive": {
+        "$gdc-ci-txt-hover-01": {
+          "description": "Use with text-display-01\n\n----------------------------\nNeutral |\ncolor-neutral 800\n#4C515C",
+          "type": "color",
+          "value": "#4c515cff",
+          "blendMode": "normal",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:bb894079b8bb0f04019963fbc504530c584f0536,",
+              "exportKey": "color"
+            }
+          }
+        },
+        "$gdc-ci-txt-hover-brand": {
+          "description": "Text on Primary Button\n\n-------------------\nBranding Color |\ncolor-branding-primary 500\n#553CA5",
+          "type": "color",
+          "value": "#553ca5ff",
+          "blendMode": "normal",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:a7658a18ae2d88ceac61a533130d1feff764cc16,",
+              "exportKey": "color"
+            }
+          }
+        },
+        "$gdc-ci-txt-active-01": {
+          "description": "Selected Text on Listing, Chip, Tag\n\n-------------------\nNeutral |\ncolor-neutral 900\n#1F2533",
+          "type": "color",
+          "value": "#1f2533ff",
+          "blendMode": "normal",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:45671bdb7870d32e5cbb4300345ee0ba60c295b9,",
+              "exportKey": "color"
+            }
+          }
+        },
+        "$gdc-ci-txt-active-brand": {
+          "description": "Pressed on Button-Boder\n\n----------------------------\nBranding Color |\ncolor-branding-primary 500\n#553CA5",
+          "type": "color",
+          "value": "#553ca5ff",
+          "blendMode": "normal",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:dfc862892b67429c51075557e6ac1e38b242b82d,",
+              "exportKey": "color"
+            }
+          }
+        },
+        "$gdc-ci-txt-disabled": {
+          "description": "Text on button disabled\n\n----------------------------\nNeutral |\ncolor-neutral 400\n#A5A8AD",
+          "type": "color",
+          "value": "#a5a8adff",
+          "blendMode": "normal",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:7a84147322afd61ab147d886f19d4994578404b1,",
+              "exportKey": "color"
+            }
+          }
+        },
+        "$gdc-ci-txt-disabled-brand": {
+          "description": "Using for disable state:\nBorder btn\n---------------------\nBranding Color | \ncolor-branding-primary 200\n#CAB7F6",
+          "type": "color",
+          "value": "#cab7f6ff",
+          "blendMode": "normal",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:b7fbba3058e1dbb0fd4ba5c8bc8824445ac003de,",
+              "exportKey": "color"
+            }
+          }
+        }
+      }
+    },
+    "icon": {
+      "default": {
+        "$gdc-c-ic-display-01": {
+          "description": "Use with text-display-01\n\n----------------------------\nNeutral |\ncolor-neutral 900\n#1F2533",
+          "type": "color",
+          "value": "#1f2533ff",
+          "blendMode": "normal",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:e0547ebbc6924c657f1f53e8680ab8d662412a7d,",
+              "exportKey": "color"
+            }
+          }
+        },
+        "$gdc-c-ic-display-02": {
+          "description": "Use with text-display-02\n\n----------------------------\nNeutral |\ncolor-neutral 800\n#4C515C",
+          "type": "color",
+          "value": "#4c515cff",
+          "blendMode": "normal",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:2accaa5af09c4cb0fd5fe11c13a613a22f030910,",
+              "exportKey": "color"
+            }
+          }
+        },
+        "$gdc-c-ic-display-03": {
+          "description": "Use with hint text\n\n----------------------------\nNeutral |\ncolor-neutral 500\n#8F9299",
+          "type": "color",
+          "value": "#8f9299ff",
+          "blendMode": "normal",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:098309157e0a6a1e3e1fcd36beef7f237af8ac51,",
+              "exportKey": "color"
+            }
+          }
+        },
+        "$gdc-c-ic-brand": {
+          "description": "- Brand icon\n- Loading icon\n\n----------------------------\nBranding Color |\ncolor-branding-primary 500\n#553CA5",
+          "type": "color",
+          "value": "#553ca5ff",
+          "blendMode": "normal",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:57e0d13607da2c5101581a3686f75ae026ad37ab,",
+              "exportKey": "color"
+            }
+          }
+        },
+        "$gdc-c-ic-oncolor": {
+          "description": "- White icon\n- Using with text on color\n\n----------------------------\nNeutral | \ncolor-neutral-white\n#FFFFFF",
+          "type": "color",
+          "value": "#ffffffff",
+          "blendMode": "normal",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:c2b6208eb00a29ed45f264b5c32e3efd08d2bcd9,",
+              "exportKey": "color"
+            }
+          }
+        }
+      },
+      "interactive": {
+        "$gdc-ci-ic-active": {
+          "description": "Icon Active/ Selected\n\n-----------------------\nNeutral |\ncolor-neutral 900\n#1F2533",
+          "type": "color",
+          "value": "#1f2533ff",
+          "blendMode": "normal",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:fad1df9bc1f1ee4ea9b5d7efe830da6e4228291f,",
+              "exportKey": "color"
+            }
+          }
+        },
+        "$gdc-ci-ic-active-brand": {
+          "description": "Icon Active/ Selected\n\n----------------------------\nBranding Color |\ncolor-branding-primary 500\n#553CA5",
+          "type": "color",
+          "value": "#553ca5ff",
+          "blendMode": "normal",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:01f0e21c7d28b37aa3dd3874a118162d635ecfeb,",
+              "exportKey": "color"
+            }
+          }
+        },
+        "$gdc-ci-ic-disable": {
+          "description": "Icon disable\n\n----------------------------\nNeutral |\ncolor-neutral 400\n#A5A8AD",
+          "type": "color",
+          "value": "#a5a8adff",
+          "blendMode": "normal",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:9bb2b38a0ccb10d9439fb8bb16b410b1b65ff7c5,",
+              "exportKey": "color"
+            }
+          }
+        },
+        "$gdc-ci-ic-disabled-brand": {
+          "description": "Using for disable state:\nIcon Border btn\n--------------------\nBranding Color | \ncolor-branding-primary 200\n#CAB7F6",
+          "type": "color",
+          "value": "#cab7f6ff",
+          "blendMode": "normal",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:75995c05153a030cad74bd0c76fb4732b5e6f293,",
+              "exportKey": "color"
+            }
+          }
+        }
+      }
+    },
+    "status": {
+      "$gdc-c-status-success": {
+        "description": "- Solid- success status\n- Border success status\n- Text- Success messenger\n\n---------------------------\nSupport |\ncolor-support-green 500\n#36B37E",
+        "type": "color",
+        "value": "#36b37eff",
+        "blendMode": "normal",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "styleId": "S:1d44067438f735b9e58659f6641edcd7ff4ef48e,",
+            "exportKey": "color"
+          }
+        }
+      },
+      "$gdc-c-status-error": {
+        "description": "- Solid-Error status\n- Border- Error status\n- Text- Error messenger\n\n------------------\nStatus |\ncolor-support-red 500\n#EF4F44",
+        "type": "color",
+        "value": "#ef4f44ff",
+        "blendMode": "normal",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "styleId": "S:5acbe98d3e8c5c6df0458f55b69f04edf18ada81,",
+            "exportKey": "color"
+          }
+        }
+      },
+      "$gdc-c-status-warning": {
+        "description": "- Solid-warning status\n- Border warning status\n- Text- Warning messenger\n\n---------------------------\nSupport |\ncolor-support-yellow 500\n#FFAB00",
+        "type": "color",
+        "value": "#ffab00ff",
+        "blendMode": "normal",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "styleId": "S:c77daa68c6a8c1a721f9d23e36133515e1fa73e4,",
+            "exportKey": "color"
+          }
+        }
+      },
+      "$gdc-c-status-progress": {
+        "description": "Solid-progress status\nBorder progress status\nText- progress messenger\n\n----------------------------\nSupport |\ncolor-support-blue 500\n#0065FF",
+        "type": "color",
+        "value": "#0065ffff",
+        "blendMode": "normal",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "styleId": "S:5caf3b473106e1a2ee4984c97ed26f79c9b0a9f6,",
+            "exportKey": "color"
+          }
+        }
+      },
+      "$gdc-c-status-exceptional": {
+        "description": "Solid-Exceptional status\nBorder- Exceptional status\nText- Exceptional messenger\n\n------------------------\nSupport |\ncolor-support-neutral 700\n#A5ADBA",
+        "type": "color",
+        "value": "#a5adbaff",
+        "blendMode": "normal",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "styleId": "S:3a5ef1c0931a7c5020bbb19acd62c3a3a95e2a0c,",
+            "exportKey": "color"
+          }
+        }
+      },
+      "$gdc-c-status-success-02": {
+        "description": "",
+        "type": "color",
+        "value": "#57d9a3ff",
+        "blendMode": "normal",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "styleId": "S:58834c0dcec33d239a4c69eb2b07cc6f059ac2f6,",
+            "exportKey": "color"
+          }
+        }
+      },
+      "$gdc-c-status-error-02": {
+        "description": "",
+        "type": "color",
+        "value": "#f58571ff",
+        "blendMode": "normal",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "styleId": "S:1dfd363f89c11f53a448b58f6e53cb00982499b5,",
+            "exportKey": "color"
+          }
+        }
+      },
+      "$gdc-c-status-warning-02": {
+        "description": "",
+        "type": "color",
+        "value": "#4c9affff",
+        "blendMode": "normal",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "styleId": "S:5d4efae43e6f768d10c7cc2b6ff91485d08d4ff9,",
+            "exportKey": "color"
+          }
+        }
+      }
+    }
+  },
+  "font": {
+    "display": {
+      "$gdc-t-display-s-bol": {
+        "description": "40px - Bold |\ndisplay-S-bold\n________________________\nAs the largest text on the screen, display styles are reserved for short, most important text or numerals. They work best on dashboard summary number.",
+        "type": "custom-fontStyle",
+        "value": {
+          "fontSize": 40,
+          "textDecoration": "none",
+          "fontFamily": "Noto Sans KR",
+          "fontWeight": 700,
+          "fontStyle": "normal",
+          "fontStretch": "normal",
+          "letterSpacing": 0,
+          "lineHeight": 60,
+          "paragraphIndent": 0,
+          "paragraphSpacing": 0,
+          "textCase": "none"
+        },
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "styleId": "S:fd7793c5f842ff000bfa533806c8778bb5085231,",
+            "exportKey": "font"
+          }
+        }
+      },
+      "$gdc-t-display-s-med": {
+        "description": "40px - Medium |\ndisplay-S-medium\n__________________________\nAs the largest text on the screen, display styles are reserved for short, most important text or numerals. They work best on dashboard summary number.",
+        "type": "custom-fontStyle",
+        "value": {
+          "fontSize": 40,
+          "textDecoration": "none",
+          "fontFamily": "Noto Sans KR",
+          "fontWeight": 500,
+          "fontStyle": "normal",
+          "fontStretch": "normal",
+          "letterSpacing": 0,
+          "lineHeight": 60,
+          "paragraphIndent": 0,
+          "paragraphSpacing": 0,
+          "textCase": "none"
+        },
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "styleId": "S:cdd49b1fa1d3713058a7ecc8ea0d0a1310f2058c,",
+            "exportKey": "font"
+          }
+        }
+      },
+      "$gdc-t-display-s-reg": {
+        "description": "40px - Regular| \ndisplay-S-regular\n__________________________\nAs the largest text on the screen, display styles are reserved for short, most important text or numerals. They work best on dashboard summary number.",
+        "type": "custom-fontStyle",
+        "value": {
+          "fontSize": 40,
+          "textDecoration": "none",
+          "fontFamily": "Noto Sans KR",
+          "fontWeight": 400,
+          "fontStyle": "normal",
+          "fontStretch": "normal",
+          "letterSpacing": 0,
+          "lineHeight": 60,
+          "paragraphIndent": 0,
+          "paragraphSpacing": 0,
+          "textCase": "none"
+        },
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "styleId": "S:8b675bff608c7214c660ee636ace1e7ff1e9c578,",
+            "exportKey": "font"
+          }
+        }
+      }
+    },
+    "headline": {
+      "$gdc-t-head-xl-bol": {
+        "description": "36px - Bold |\nheadline-XL-bold\n___________________________\nHeadlines are best-suited for short, high-emphasis text \n\nsuch as title of a page or number in dashboard which less emphasis than Display type\n\nThere are 4 type sets (XL, L,M,S)",
+        "type": "custom-fontStyle",
+        "value": {
+          "fontSize": 36,
+          "textDecoration": "none",
+          "fontFamily": "Noto Sans KR",
+          "fontWeight": 700,
+          "fontStyle": "normal",
+          "fontStretch": "normal",
+          "letterSpacing": 0,
+          "lineHeight": 54,
+          "paragraphIndent": 0,
+          "paragraphSpacing": 0,
+          "textCase": "none"
+        },
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "styleId": "S:5aad0658399b074626e8e6278578758ec218cb19,",
+            "exportKey": "font"
+          }
+        }
+      },
+      "$gdc-t-head-l-bol": {
+        "description": "32px - Bold |\nheadline-L-bold\n___________________________\nHeadlines are best-suited for short, high-emphasis text \n\nsuch as title of a page or number in dashboard which less emphasis than Display type\n\nThere are 4 type sets (XL, L,M,S)",
+        "type": "custom-fontStyle",
+        "value": {
+          "fontSize": 32,
+          "textDecoration": "none",
+          "fontFamily": "Noto Sans KR",
+          "fontWeight": 700,
+          "fontStyle": "normal",
+          "fontStretch": "normal",
+          "letterSpacing": 0,
+          "lineHeight": 48,
+          "paragraphIndent": 0,
+          "paragraphSpacing": 0,
+          "textCase": "none"
+        },
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "styleId": "S:c41562179f02e59ecd6c244dd47b59b70c5f2446,",
+            "exportKey": "font"
+          }
+        }
+      },
+      "$gdc-t-head-m-bol": {
+        "description": "28px - Bold |\nheadline-M-bold\n___________________________\nHeadlines are best-suited for short, high-emphasis text \n\nsuch as title of a page or number in dashboard which less emphasis than Display type\n\nThere are 4 type sets (XL, L,M,S)",
+        "type": "custom-fontStyle",
+        "value": {
+          "fontSize": 28,
+          "textDecoration": "none",
+          "fontFamily": "Noto Sans KR",
+          "fontWeight": 700,
+          "fontStyle": "normal",
+          "fontStretch": "normal",
+          "letterSpacing": 0,
+          "lineHeight": 42,
+          "paragraphIndent": 0,
+          "paragraphSpacing": 0,
+          "textCase": "none"
+        },
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "styleId": "S:e3165d2188a2621f235e18358ae68fab0f7613d2,",
+            "exportKey": "font"
+          }
+        }
+      },
+      "$gdc-t-head-m-reg": {
+        "description": "28px - Regular |\nheadline-M-Regular\n___________________________\nHeadlines are best-suited for short, high-emphasis text \n\nsuch as title of a page or number in dashboard which less emphasis than Display type\n\nThere are 4 type sets (XL, L,M,S)",
+        "type": "custom-fontStyle",
+        "value": {
+          "fontSize": 28,
+          "textDecoration": "none",
+          "fontFamily": "Noto Sans KR",
+          "fontWeight": 400,
+          "fontStyle": "normal",
+          "fontStretch": "normal",
+          "letterSpacing": 0,
+          "lineHeight": 42,
+          "paragraphIndent": 0,
+          "paragraphSpacing": 0,
+          "textCase": "none"
+        },
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "styleId": "S:5db41106c106b4c2b613a630334310741dff9a43,",
+            "exportKey": "font"
+          }
+        }
+      },
+      "$gdc-t-head-s-bol": {
+        "description": "24px - Bold |\nheadline-S-bold\n___________________________\nHeadlines are best-suited for short, high-emphasis text \n\nsuch as title of a page or number in dashboard which less emphasis than Display type\n\nThere are 4 type sets (XL, L,M,S)",
+        "type": "custom-fontStyle",
+        "value": {
+          "fontSize": 24,
+          "textDecoration": "none",
+          "fontFamily": "Noto Sans KR",
+          "fontWeight": 700,
+          "fontStyle": "normal",
+          "fontStretch": "normal",
+          "letterSpacing": 0,
+          "lineHeight": 36,
+          "paragraphIndent": 0,
+          "paragraphSpacing": 0,
+          "textCase": "none"
+        },
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "styleId": "S:30f3ca97f822752feaee71df39918e3f3ddfde84,",
+            "exportKey": "font"
+          }
+        }
+      }
+    },
+    "title": {
+      "$gdc-t-tittle-xl-bol": {
+        "description": "22px - Bold |\ntitle-XL-bold\n__________________________\nTitles are smaller than headline styles, and should be used for medium-emphasis text \nSuch as section title, sub title, popup title, table title, chart title...\nThere are 4 type sets (XL,L,M,S)",
+        "type": "custom-fontStyle",
+        "value": {
+          "fontSize": 22,
+          "textDecoration": "none",
+          "fontFamily": "Noto Sans KR",
+          "fontWeight": 700,
+          "fontStyle": "normal",
+          "fontStretch": "normal",
+          "letterSpacing": 0,
+          "lineHeight": 32,
+          "paragraphIndent": 0,
+          "paragraphSpacing": 0,
+          "textCase": "none"
+        },
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "styleId": "S:149dee20be7c478d14d4df77ebd59f5693c93722,",
+            "exportKey": "font"
+          }
+        }
+      },
+      "$gdc-t-tittle-l-bol": {
+        "description": "20px - Bold |\ntitle-L-bold\n__________________________\nTitles are smaller than headline styles, and should be used for medium-emphasis text \nSuch as section title, sub title, popup title, table title, chart title...\nThere are 4 type sets (XL,L,M,S)",
+        "type": "custom-fontStyle",
+        "value": {
+          "fontSize": 20,
+          "textDecoration": "none",
+          "fontFamily": "Noto Sans KR",
+          "fontWeight": 700,
+          "fontStyle": "normal",
+          "fontStretch": "normal",
+          "letterSpacing": 0,
+          "lineHeight": 30,
+          "paragraphIndent": 0,
+          "paragraphSpacing": 0,
+          "textCase": "none"
+        },
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "styleId": "S:31875a214bd997f0082ed72fb45f77e0ef96ada1,",
+            "exportKey": "font"
+          }
+        }
+      },
+      "$gdc-t-tittle-l-reg": {
+        "description": "20px - Regular |\ntitle-L-regular\n__________________________\nTitles are smaller than headline styles, and should be used for medium-emphasis text \nSuch as section title, sub title, popup title, table title, chart title...\nThere are 4 type sets (XL,L,M,S)",
+        "type": "custom-fontStyle",
+        "value": {
+          "fontSize": 20,
+          "textDecoration": "none",
+          "fontFamily": "Noto Sans KR",
+          "fontWeight": 400,
+          "fontStyle": "normal",
+          "fontStretch": "normal",
+          "letterSpacing": 0,
+          "lineHeight": 30,
+          "paragraphIndent": 0,
+          "paragraphSpacing": 0,
+          "textCase": "none"
+        },
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "styleId": "S:640a87461d8526cb1df37b56f855e376bfaaee96,",
+            "exportKey": "font"
+          }
+        }
+      },
+      "$gdc-t-tittle-m-bol": {
+        "description": "18px - Bold |\ntitle-M-bold\n__________________________\nTitles are smaller than headline styles, and should be used for medium-emphasis text \nSuch as section title, sub title, popup title, table title, chart title...\nThere are 4 type sets (XL,L,M,S)",
+        "type": "custom-fontStyle",
+        "value": {
+          "fontSize": 18,
+          "textDecoration": "none",
+          "fontFamily": "Noto Sans KR",
+          "fontWeight": 700,
+          "fontStyle": "normal",
+          "fontStretch": "normal",
+          "letterSpacing": 0,
+          "lineHeight": 28,
+          "paragraphIndent": 0,
+          "paragraphSpacing": 0,
+          "textCase": "none"
+        },
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "styleId": "S:72c0d34b935ebad99a54a0f2a4c419f116eaecd2,",
+            "exportKey": "font"
+          }
+        }
+      },
+      "$gdc-t-tittle-s-bol": {
+        "description": "16px - Bold |\ntitle-S-bold\n__________________________\nTitles are smaller than headline styles, and should be used for medium-emphasis text \nSuch as section title, sub title, popup title, table title, chart title...\nThere are 4 type sets (XL,L,M,S)",
+        "type": "custom-fontStyle",
+        "value": {
+          "fontSize": 16,
+          "textDecoration": "none",
+          "fontFamily": "Noto Sans KR",
+          "fontWeight": 700,
+          "fontStyle": "normal",
+          "fontStretch": "normal",
+          "letterSpacing": 0,
+          "lineHeight": 24,
+          "paragraphIndent": 0,
+          "paragraphSpacing": 0,
+          "textCase": "none"
+        },
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "styleId": "S:ecf20840eb9cc97d12c993bbaa591f6eac05c291,",
+            "exportKey": "font"
+          }
+        }
+      }
+    },
+    "components": {
+      "$gdc-t-comp-l-bol": {
+        "description": "16px - Bold |\ncomponent-L-bold\n________________________\nUsing for text inside large component \n\nsuch as button, menu, tab, lnb,gnb,chips,text field, drop down, date pciker, steps...",
+        "type": "custom-fontStyle",
+        "value": {
+          "fontSize": 16,
+          "textDecoration": "none",
+          "fontFamily": "Noto Sans KR",
+          "fontWeight": 700,
+          "fontStyle": "normal",
+          "fontStretch": "normal",
+          "letterSpacing": 0,
+          "lineHeight": 28,
+          "paragraphIndent": 0,
+          "paragraphSpacing": 0,
+          "textCase": "none"
+        },
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "styleId": "S:662c4ce4f7e2b49a4f4eff5a5baa10cc1c0d7058,",
+            "exportKey": "font"
+          }
+        }
+      },
+      "$gdc-t-comp-l-reg": {
+        "description": "16px - Regular |\ncomponent-L-regular\n________________________\nUsing for text inside large component \n\nsuch as button, menu, tab, lnb,gnb,chips,text field, drop down, date pciker, steps...",
+        "type": "custom-fontStyle",
+        "value": {
+          "fontSize": 16,
+          "textDecoration": "none",
+          "fontFamily": "Noto Sans KR",
+          "fontWeight": 400,
+          "fontStyle": "normal",
+          "fontStretch": "normal",
+          "letterSpacing": 0,
+          "lineHeight": 28,
+          "paragraphIndent": 0,
+          "paragraphSpacing": 0,
+          "textCase": "none"
+        },
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "styleId": "S:4c89934b349107ec3163df969a9a34b81c5d5857,",
+            "exportKey": "font"
+          }
+        }
+      },
+      "$gdc-t-comp-m-bol": {
+        "description": "14px - Bold |\ncomponent-M-bold\n________________________\nUsing for text inside medium component \n\nsuch as button, menu, tab, lnb,gnb,chips,text field, drop down, date pciker, steps...",
+        "type": "custom-fontStyle",
+        "value": {
+          "fontSize": 14,
+          "textDecoration": "none",
+          "fontFamily": "Noto Sans KR",
+          "fontWeight": 700,
+          "fontStyle": "normal",
+          "fontStretch": "normal",
+          "letterSpacing": 0,
+          "lineHeight": 24,
+          "paragraphIndent": 0,
+          "paragraphSpacing": 0,
+          "textCase": "none"
+        },
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "styleId": "S:a8a0efe5a3ede10aedf801e92bd94b65d6ce82ee,",
+            "exportKey": "font"
+          }
+        }
+      },
+      "$gdc-t-comp-m-med": {
+        "description": "14px - Medium\ncomponent-M-medium\n________________________\nUsing for text inside medium component \n\nsuch as button, menu, tab, lnb,gnb,chips,text field, drop down, date pciker, steps...",
+        "type": "custom-fontStyle",
+        "value": {
+          "fontSize": 14,
+          "textDecoration": "none",
+          "fontFamily": "Noto Sans KR",
+          "fontWeight": 500,
+          "fontStyle": "normal",
+          "fontStretch": "normal",
+          "letterSpacing": 0,
+          "lineHeight": 24,
+          "paragraphIndent": 0,
+          "paragraphSpacing": 0,
+          "textCase": "none"
+        },
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "styleId": "S:84120bbed658d81701cf149a235190923c6d748c,",
+            "exportKey": "font"
+          }
+        }
+      },
+      "$gdc-t-comp-m-reg": {
+        "description": "14px - Regular |\ncomponent-M-regular\n________________________\nUsing for text inside medium component \n\nsuch as button, menu, tab, lnb,gnb,chips,text field, drop down, date pciker, steps...",
+        "type": "custom-fontStyle",
+        "value": {
+          "fontSize": 14,
+          "textDecoration": "none",
+          "fontFamily": "Noto Sans KR",
+          "fontWeight": 400,
+          "fontStyle": "normal",
+          "fontStretch": "normal",
+          "letterSpacing": 0,
+          "lineHeight": 24,
+          "paragraphIndent": 0,
+          "paragraphSpacing": 0,
+          "textCase": "none"
+        },
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "styleId": "S:48d501e269907575d58b31d329c8b31db0d86b0e,",
+            "exportKey": "font"
+          }
+        }
+      },
+      "$gdc-t-comp-s-bol": {
+        "description": "12px - Bold |\ncomponent-S-bold\n________________________\nUsing for text inside small component \n\nsuch as button, menu, tab, lnb,gnb,chips,text field, drop down, date pciker, steps...",
+        "type": "custom-fontStyle",
+        "value": {
+          "fontSize": 12,
+          "textDecoration": "none",
+          "fontFamily": "Noto Sans KR",
+          "fontWeight": 700,
+          "fontStyle": "normal",
+          "fontStretch": "normal",
+          "letterSpacing": 0,
+          "lineHeight": 18,
+          "paragraphIndent": 0,
+          "paragraphSpacing": 0,
+          "textCase": "none"
+        },
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "styleId": "S:4ef77d6e07352aa0c495eea8fb07495c151bb297,",
+            "exportKey": "font"
+          }
+        }
+      },
+      "$gdc-t-comp-s-reg": {
+        "description": "12px - Regular |\ncomponent-S-regular\n________________________\nUsing for text inside small component \n\nsuch as button, menu, tab, lnb,gnb,chips,text field, drop down, date pciker, steps...",
+        "type": "custom-fontStyle",
+        "value": {
+          "fontSize": 12,
+          "textDecoration": "none",
+          "fontFamily": "Noto Sans KR",
+          "fontWeight": 400,
+          "fontStyle": "normal",
+          "fontStretch": "normal",
+          "letterSpacing": 0,
+          "lineHeight": 18,
+          "paragraphIndent": 0,
+          "paragraphSpacing": 0,
+          "textCase": "none"
+        },
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "styleId": "S:b5dbd9098c067eafff6ba51814309b0e7d9f4e80,",
+            "exportKey": "font"
+          }
+        }
+      }
+    },
+    "body": {
+      "$gdc-t-body-m-bol": {
+        "description": "14px - Bold |\nbody-M-bold\n________________________\nUse for information content \nwith higher emphasis than Medium & Regular \n\nUsing when text is:\n- Information content such as data table content, pop up content, chart content, card content",
+        "type": "custom-fontStyle",
+        "value": {
+          "fontSize": 14,
+          "textDecoration": "none",
+          "fontFamily": "Noto Sans KR",
+          "fontWeight": 700,
+          "fontStyle": "normal",
+          "fontStretch": "normal",
+          "letterSpacing": 0,
+          "lineHeight": 24,
+          "paragraphIndent": 0,
+          "paragraphSpacing": 0,
+          "textCase": "none"
+        },
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "styleId": "S:d0da9f648e7a8cf014cf52fd7bd79c837d37bc66,",
+            "exportKey": "font"
+          }
+        }
+      },
+      "$gdc-t-body-m-med": {
+        "description": "14 - Medium |\nbody-M-medium\n________________________\nUse for information content \n\nwith higher emphasis than Regular \nUsing when text is:\n- Information content such as data table content, pop up content, chart content, card content",
+        "type": "custom-fontStyle",
+        "value": {
+          "fontSize": 14,
+          "textDecoration": "none",
+          "fontFamily": "Noto Sans KR",
+          "fontWeight": 500,
+          "fontStyle": "normal",
+          "fontStretch": "normal",
+          "letterSpacing": 0,
+          "lineHeight": 24,
+          "paragraphIndent": 0,
+          "paragraphSpacing": 0,
+          "textCase": "none"
+        },
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "styleId": "S:303ab458dac39cf6f8f93378366494d890a797ed,",
+            "exportKey": "font"
+          }
+        }
+      },
+      "$gdc-t-body-m-reg": {
+        "description": "14px - Regular |\nbody-M-regular\n________________________\nUsing when text is:\n- Information content such as data table content, pop up content, chart content, card content",
+        "type": "custom-fontStyle",
+        "value": {
+          "fontSize": 14,
+          "textDecoration": "none",
+          "fontFamily": "Noto Sans KR",
+          "fontWeight": 400,
+          "fontStyle": "normal",
+          "fontStretch": "normal",
+          "letterSpacing": 0,
+          "lineHeight": 24,
+          "paragraphIndent": 0,
+          "paragraphSpacing": 0,
+          "textCase": "none"
+        },
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "styleId": "S:40773de4ee2e36ab0a1432299e3f91905eb2ba3f,",
+            "exportKey": "font"
+          }
+        }
+      },
+      "$gdc-t-body-s-bol": {
+        "description": "12px - Bold |\nbody-S-bold\n_____________________\nUsing for smaller content such as chart label, legend",
+        "type": "custom-fontStyle",
+        "value": {
+          "fontSize": 12,
+          "textDecoration": "none",
+          "fontFamily": "Noto Sans KR",
+          "fontWeight": 700,
+          "fontStyle": "normal",
+          "fontStretch": "normal",
+          "letterSpacing": 0,
+          "lineHeight": 18,
+          "paragraphIndent": 0,
+          "paragraphSpacing": 0,
+          "textCase": "none"
+        },
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "styleId": "S:ccf11c14d7bc1dfd839c4ecd861714fddbfe0d77,",
+            "exportKey": "font"
+          }
+        }
+      },
+      "$gdc-t-body-s-reg": {
+        "description": "12px - Regular |\nbody-S-regular\n_____________________\nUsing for smaller content such as chart label, legend",
+        "type": "custom-fontStyle",
+        "value": {
+          "fontSize": 12,
+          "textDecoration": "none",
+          "fontFamily": "Noto Sans KR",
+          "fontWeight": 400,
+          "fontStyle": "normal",
+          "fontStretch": "normal",
+          "letterSpacing": 0,
+          "lineHeight": 18,
+          "paragraphIndent": 0,
+          "paragraphSpacing": 0,
+          "textCase": "none"
+        },
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "styleId": "S:dfdc2a021b64c76ea43261a9933d086dce6b066c,",
+            "exportKey": "font"
+          }
+        }
+      }
+    },
+    "link": {
+      "$gdc-t-link-m-reg": {
+        "description": "14px - Regular |\nlink-M-regular\n_______________________\nuse for text link",
+        "type": "custom-fontStyle",
+        "value": {
+          "fontSize": 14,
+          "textDecoration": "underline",
+          "fontFamily": "Noto Sans KR",
+          "fontWeight": 400,
+          "fontStyle": "normal",
+          "fontStretch": "normal",
+          "letterSpacing": 0,
+          "lineHeight": 24,
+          "paragraphIndent": 0,
+          "paragraphSpacing": 0,
+          "textCase": "none"
+        },
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "styleId": "S:b2bb49e91822c3ab70ae99eacd2a2b06005b01cd,",
+            "exportKey": "font"
+          }
+        }
+      },
+      "$gdc-t-link-s-reg": {
+        "description": "12px - Regular |\nlink-S-regular\n_______________________\nuse for text link smaller than M",
+        "type": "custom-fontStyle",
+        "value": {
+          "fontSize": 12,
+          "textDecoration": "underline",
+          "fontFamily": "Noto Sans KR",
+          "fontWeight": 400,
+          "fontStyle": "normal",
+          "fontStretch": "normal",
+          "letterSpacing": 0,
+          "lineHeight": 18,
+          "paragraphIndent": 0,
+          "paragraphSpacing": 0,
+          "textCase": "none"
+        },
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "styleId": "S:8b79e014b26c3bfc3fcc194f6a871671302c7831,",
+            "exportKey": "font"
+          }
+        }
+      }
+    },
+    "caption": {
+      "$gdc-t-caption-m-med": {
+        "description": "12px - Medium | All caps\ncaption-M-medium\n_______________________",
+        "type": "custom-fontStyle",
+        "value": {
+          "fontSize": 12,
+          "textDecoration": "none",
+          "fontFamily": "Noto Sans KR",
+          "fontWeight": 500,
+          "fontStyle": "normal",
+          "fontStretch": "normal",
+          "letterSpacing": 0,
+          "lineHeight": 20,
+          "paragraphIndent": 0,
+          "paragraphSpacing": 0,
+          "textCase": "uppercase"
+        },
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "styleId": "S:a73930a266f749f5b4ab17f72efc39d738deff02,",
+            "exportKey": "font"
+          }
+        }
+      },
+      "$gdc-t-caption-m-reg": {
+        "description": "12px - Regular\ncaption-M-regular",
+        "type": "custom-fontStyle",
+        "value": {
+          "fontSize": 12,
+          "textDecoration": "none",
+          "fontFamily": "Noto Sans KR",
+          "fontWeight": 400,
+          "fontStyle": "normal",
+          "fontStretch": "normal",
+          "letterSpacing": 0,
+          "lineHeight": 20,
+          "paragraphIndent": 0,
+          "paragraphSpacing": 0,
+          "textCase": "none"
+        },
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "styleId": "S:7fbb7d0ad46027b2f7b4f55e7a6fff7b20a481d2,",
+            "exportKey": "font"
+          }
+        }
+      }
+    },
+    "paragraph": {
+      "$gdc-t-para-m-reg": {
+        "description": "sử dụng trong text area, th text nhiều dòng",
+        "type": "custom-fontStyle",
+        "value": {
+          "fontSize": 14,
+          "textDecoration": "none",
+          "fontFamily": "Noto Sans KR",
+          "fontWeight": 400,
+          "fontStyle": "normal",
+          "fontStretch": "normal",
+          "letterSpacing": 0,
+          "lineHeight": 22,
+          "paragraphIndent": 0,
+          "paragraphSpacing": 0,
+          "textCase": "none"
+        },
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "styleId": "S:9988fb6e859b71d3f84820e4da10bba70e64d7e8,",
+            "exportKey": "font"
+          }
+        }
+      }
+    }
+  },
+  "effect": {
+    "$gdc-shadow-01": {
+      "0": {
+        "type": "custom-shadow",
+        "value": {
+          "shadowType": "dropShadow",
+          "radius": 3,
+          "color": "#1b1f241f",
+          "offsetX": 0,
+          "offsetY": 0,
+          "spread": 0
+        }
+      },
+      "1": {
+        "type": "custom-shadow",
+        "value": {
+          "shadowType": "dropShadow",
+          "radius": 24,
+          "color": "#424a531f",
+          "offsetX": 0,
+          "offsetY": 8,
+          "spread": 0
+        }
+      },
+      "description": "Popover\nFAB button",
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "styleId": "S:3314b5e4ca9f0bc2a7e9071775e298a74a2a24de,",
+          "exportKey": "effect"
+        }
+      }
+    },
+    "$gdc-shadow-02": {
+      "0": {
+        "type": "custom-shadow",
+        "value": {
+          "shadowType": "dropShadow",
+          "radius": 2,
+          "color": "#1b1f241f",
+          "offsetX": 0,
+          "offsetY": 0,
+          "spread": 0
+        }
+      },
+      "1": {
+        "type": "custom-shadow",
+        "value": {
+          "shadowType": "dropShadow",
+          "radius": 16,
+          "color": "#424a531f",
+          "offsetX": 0,
+          "offsetY": 4,
+          "spread": 0
+        }
+      },
+      "description": "Tooltip\nToast\nDialog\nNotification",
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "styleId": "S:3ccc4d826cbadf5fe3fc839e25359cbc415b534a,",
+          "exportKey": "effect"
+        }
+      }
+    },
+    "$gdc-shadow-03": {
+      "0": {
+        "type": "custom-shadow",
+        "value": {
+          "shadowType": "dropShadow",
+          "radius": 2,
+          "color": "#1b1f241f",
+          "offsetX": 0,
+          "offsetY": 0,
+          "spread": 0
+        }
+      },
+      "1": {
+        "type": "custom-shadow",
+        "value": {
+          "shadowType": "dropShadow",
+          "radius": 10,
+          "color": "#424a531f",
+          "offsetX": 0,
+          "offsetY": 1,
+          "spread": 0
+        }
+      },
+      "description": "Card panel\nLNB",
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "styleId": "S:438bb568cb295ad084188e8e6d81f656b7d37507,",
+          "exportKey": "effect"
+        }
+      }
+    }
+  },
+  "typography": {
+    "display": {
+      "$gdc-t-display-s-bol": {
+        "description": "40px - Bold |\ndisplay-S-bold\n________________________\nAs the largest text on the screen, display styles are reserved for short, most important text or numerals. They work best on dashboard summary number.",
+        "fontSize": {
+          "type": "dimension",
+          "value": 40
+        },
+        "textDecoration": {
+          "type": "string",
+          "value": "none"
+        },
+        "fontFamily": {
+          "type": "string",
+          "value": "Noto Sans KR"
+        },
+        "fontWeight": {
+          "type": "number",
+          "value": 700
+        },
+        "fontStyle": {
+          "type": "string",
+          "value": "normal"
+        },
+        "fontStretch": {
+          "type": "string",
+          "value": "normal"
+        },
+        "letterSpacing": {
+          "type": "dimension",
+          "value": 0
+        },
+        "lineHeight": {
+          "type": "dimension",
+          "value": 60
+        },
+        "paragraphIndent": {
+          "type": "dimension",
+          "value": 0
+        },
+        "paragraphSpacing": {
+          "type": "dimension",
+          "value": 0
+        },
+        "textCase": {
+          "type": "string",
+          "value": "none"
+        }
+      },
+      "$gdc-t-display-s-med": {
+        "description": "40px - Medium |\ndisplay-S-medium\n__________________________\nAs the largest text on the screen, display styles are reserved for short, most important text or numerals. They work best on dashboard summary number.",
+        "fontSize": {
+          "type": "dimension",
+          "value": 40
+        },
+        "textDecoration": {
+          "type": "string",
+          "value": "none"
+        },
+        "fontFamily": {
+          "type": "string",
+          "value": "Noto Sans KR"
+        },
+        "fontWeight": {
+          "type": "number",
+          "value": 500
+        },
+        "fontStyle": {
+          "type": "string",
+          "value": "normal"
+        },
+        "fontStretch": {
+          "type": "string",
+          "value": "normal"
+        },
+        "letterSpacing": {
+          "type": "dimension",
+          "value": 0
+        },
+        "lineHeight": {
+          "type": "dimension",
+          "value": 60
+        },
+        "paragraphIndent": {
+          "type": "dimension",
+          "value": 0
+        },
+        "paragraphSpacing": {
+          "type": "dimension",
+          "value": 0
+        },
+        "textCase": {
+          "type": "string",
+          "value": "none"
+        }
+      },
+      "$gdc-t-display-s-reg": {
+        "description": "40px - Regular| \ndisplay-S-regular\n__________________________\nAs the largest text on the screen, display styles are reserved for short, most important text or numerals. They work best on dashboard summary number.",
+        "fontSize": {
+          "type": "dimension",
+          "value": 40
+        },
+        "textDecoration": {
+          "type": "string",
+          "value": "none"
+        },
+        "fontFamily": {
+          "type": "string",
+          "value": "Noto Sans KR"
+        },
+        "fontWeight": {
+          "type": "number",
+          "value": 400
+        },
+        "fontStyle": {
+          "type": "string",
+          "value": "normal"
+        },
+        "fontStretch": {
+          "type": "string",
+          "value": "normal"
+        },
+        "letterSpacing": {
+          "type": "dimension",
+          "value": 0
+        },
+        "lineHeight": {
+          "type": "dimension",
+          "value": 60
+        },
+        "paragraphIndent": {
+          "type": "dimension",
+          "value": 0
+        },
+        "paragraphSpacing": {
+          "type": "dimension",
+          "value": 0
+        },
+        "textCase": {
+          "type": "string",
+          "value": "none"
+        }
+      }
+    },
+    "headline": {
+      "$gdc-t-head-xl-bol": {
+        "description": "36px - Bold |\nheadline-XL-bold\n___________________________\nHeadlines are best-suited for short, high-emphasis text \n\nsuch as title of a page or number in dashboard which less emphasis than Display type\n\nThere are 4 type sets (XL, L,M,S)",
+        "fontSize": {
+          "type": "dimension",
+          "value": 36
+        },
+        "textDecoration": {
+          "type": "string",
+          "value": "none"
+        },
+        "fontFamily": {
+          "type": "string",
+          "value": "Noto Sans KR"
+        },
+        "fontWeight": {
+          "type": "number",
+          "value": 700
+        },
+        "fontStyle": {
+          "type": "string",
+          "value": "normal"
+        },
+        "fontStretch": {
+          "type": "string",
+          "value": "normal"
+        },
+        "letterSpacing": {
+          "type": "dimension",
+          "value": 0
+        },
+        "lineHeight": {
+          "type": "dimension",
+          "value": 54
+        },
+        "paragraphIndent": {
+          "type": "dimension",
+          "value": 0
+        },
+        "paragraphSpacing": {
+          "type": "dimension",
+          "value": 0
+        },
+        "textCase": {
+          "type": "string",
+          "value": "none"
+        }
+      },
+      "$gdc-t-head-l-bol": {
+        "description": "32px - Bold |\nheadline-L-bold\n___________________________\nHeadlines are best-suited for short, high-emphasis text \n\nsuch as title of a page or number in dashboard which less emphasis than Display type\n\nThere are 4 type sets (XL, L,M,S)",
+        "fontSize": {
+          "type": "dimension",
+          "value": 32
+        },
+        "textDecoration": {
+          "type": "string",
+          "value": "none"
+        },
+        "fontFamily": {
+          "type": "string",
+          "value": "Noto Sans KR"
+        },
+        "fontWeight": {
+          "type": "number",
+          "value": 700
+        },
+        "fontStyle": {
+          "type": "string",
+          "value": "normal"
+        },
+        "fontStretch": {
+          "type": "string",
+          "value": "normal"
+        },
+        "letterSpacing": {
+          "type": "dimension",
+          "value": 0
+        },
+        "lineHeight": {
+          "type": "dimension",
+          "value": 48
+        },
+        "paragraphIndent": {
+          "type": "dimension",
+          "value": 0
+        },
+        "paragraphSpacing": {
+          "type": "dimension",
+          "value": 0
+        },
+        "textCase": {
+          "type": "string",
+          "value": "none"
+        }
+      },
+      "$gdc-t-head-m-bol": {
+        "description": "28px - Bold |\nheadline-M-bold\n___________________________\nHeadlines are best-suited for short, high-emphasis text \n\nsuch as title of a page or number in dashboard which less emphasis than Display type\n\nThere are 4 type sets (XL, L,M,S)",
+        "fontSize": {
+          "type": "dimension",
+          "value": 28
+        },
+        "textDecoration": {
+          "type": "string",
+          "value": "none"
+        },
+        "fontFamily": {
+          "type": "string",
+          "value": "Noto Sans KR"
+        },
+        "fontWeight": {
+          "type": "number",
+          "value": 700
+        },
+        "fontStyle": {
+          "type": "string",
+          "value": "normal"
+        },
+        "fontStretch": {
+          "type": "string",
+          "value": "normal"
+        },
+        "letterSpacing": {
+          "type": "dimension",
+          "value": 0
+        },
+        "lineHeight": {
+          "type": "dimension",
+          "value": 42
+        },
+        "paragraphIndent": {
+          "type": "dimension",
+          "value": 0
+        },
+        "paragraphSpacing": {
+          "type": "dimension",
+          "value": 0
+        },
+        "textCase": {
+          "type": "string",
+          "value": "none"
+        }
+      },
+      "$gdc-t-head-m-reg": {
+        "description": "28px - Regular |\nheadline-M-Regular\n___________________________\nHeadlines are best-suited for short, high-emphasis text \n\nsuch as title of a page or number in dashboard which less emphasis than Display type\n\nThere are 4 type sets (XL, L,M,S)",
+        "fontSize": {
+          "type": "dimension",
+          "value": 28
+        },
+        "textDecoration": {
+          "type": "string",
+          "value": "none"
+        },
+        "fontFamily": {
+          "type": "string",
+          "value": "Noto Sans KR"
+        },
+        "fontWeight": {
+          "type": "number",
+          "value": 400
+        },
+        "fontStyle": {
+          "type": "string",
+          "value": "normal"
+        },
+        "fontStretch": {
+          "type": "string",
+          "value": "normal"
+        },
+        "letterSpacing": {
+          "type": "dimension",
+          "value": 0
+        },
+        "lineHeight": {
+          "type": "dimension",
+          "value": 42
+        },
+        "paragraphIndent": {
+          "type": "dimension",
+          "value": 0
+        },
+        "paragraphSpacing": {
+          "type": "dimension",
+          "value": 0
+        },
+        "textCase": {
+          "type": "string",
+          "value": "none"
+        }
+      },
+      "$gdc-t-head-s-bol": {
+        "description": "24px - Bold |\nheadline-S-bold\n___________________________\nHeadlines are best-suited for short, high-emphasis text \n\nsuch as title of a page or number in dashboard which less emphasis than Display type\n\nThere are 4 type sets (XL, L,M,S)",
+        "fontSize": {
+          "type": "dimension",
+          "value": 24
+        },
+        "textDecoration": {
+          "type": "string",
+          "value": "none"
+        },
+        "fontFamily": {
+          "type": "string",
+          "value": "Noto Sans KR"
+        },
+        "fontWeight": {
+          "type": "number",
+          "value": 700
+        },
+        "fontStyle": {
+          "type": "string",
+          "value": "normal"
+        },
+        "fontStretch": {
+          "type": "string",
+          "value": "normal"
+        },
+        "letterSpacing": {
+          "type": "dimension",
+          "value": 0
+        },
+        "lineHeight": {
+          "type": "dimension",
+          "value": 36
+        },
+        "paragraphIndent": {
+          "type": "dimension",
+          "value": 0
+        },
+        "paragraphSpacing": {
+          "type": "dimension",
+          "value": 0
+        },
+        "textCase": {
+          "type": "string",
+          "value": "none"
+        }
+      }
+    },
+    "title": {
+      "$gdc-t-tittle-xl-bol": {
+        "description": "22px - Bold |\ntitle-XL-bold\n__________________________\nTitles are smaller than headline styles, and should be used for medium-emphasis text \nSuch as section title, sub title, popup title, table title, chart title...\nThere are 4 type sets (XL,L,M,S)",
+        "fontSize": {
+          "type": "dimension",
+          "value": 22
+        },
+        "textDecoration": {
+          "type": "string",
+          "value": "none"
+        },
+        "fontFamily": {
+          "type": "string",
+          "value": "Noto Sans KR"
+        },
+        "fontWeight": {
+          "type": "number",
+          "value": 700
+        },
+        "fontStyle": {
+          "type": "string",
+          "value": "normal"
+        },
+        "fontStretch": {
+          "type": "string",
+          "value": "normal"
+        },
+        "letterSpacing": {
+          "type": "dimension",
+          "value": 0
+        },
+        "lineHeight": {
+          "type": "dimension",
+          "value": 32
+        },
+        "paragraphIndent": {
+          "type": "dimension",
+          "value": 0
+        },
+        "paragraphSpacing": {
+          "type": "dimension",
+          "value": 0
+        },
+        "textCase": {
+          "type": "string",
+          "value": "none"
+        }
+      },
+      "$gdc-t-tittle-l-bol": {
+        "description": "20px - Bold |\ntitle-L-bold\n__________________________\nTitles are smaller than headline styles, and should be used for medium-emphasis text \nSuch as section title, sub title, popup title, table title, chart title...\nThere are 4 type sets (XL,L,M,S)",
+        "fontSize": {
+          "type": "dimension",
+          "value": 20
+        },
+        "textDecoration": {
+          "type": "string",
+          "value": "none"
+        },
+        "fontFamily": {
+          "type": "string",
+          "value": "Noto Sans KR"
+        },
+        "fontWeight": {
+          "type": "number",
+          "value": 700
+        },
+        "fontStyle": {
+          "type": "string",
+          "value": "normal"
+        },
+        "fontStretch": {
+          "type": "string",
+          "value": "normal"
+        },
+        "letterSpacing": {
+          "type": "dimension",
+          "value": 0
+        },
+        "lineHeight": {
+          "type": "dimension",
+          "value": 30
+        },
+        "paragraphIndent": {
+          "type": "dimension",
+          "value": 0
+        },
+        "paragraphSpacing": {
+          "type": "dimension",
+          "value": 0
+        },
+        "textCase": {
+          "type": "string",
+          "value": "none"
+        }
+      },
+      "$gdc-t-tittle-l-reg": {
+        "description": "20px - Regular |\ntitle-L-regular\n__________________________\nTitles are smaller than headline styles, and should be used for medium-emphasis text \nSuch as section title, sub title, popup title, table title, chart title...\nThere are 4 type sets (XL,L,M,S)",
+        "fontSize": {
+          "type": "dimension",
+          "value": 20
+        },
+        "textDecoration": {
+          "type": "string",
+          "value": "none"
+        },
+        "fontFamily": {
+          "type": "string",
+          "value": "Noto Sans KR"
+        },
+        "fontWeight": {
+          "type": "number",
+          "value": 400
+        },
+        "fontStyle": {
+          "type": "string",
+          "value": "normal"
+        },
+        "fontStretch": {
+          "type": "string",
+          "value": "normal"
+        },
+        "letterSpacing": {
+          "type": "dimension",
+          "value": 0
+        },
+        "lineHeight": {
+          "type": "dimension",
+          "value": 30
+        },
+        "paragraphIndent": {
+          "type": "dimension",
+          "value": 0
+        },
+        "paragraphSpacing": {
+          "type": "dimension",
+          "value": 0
+        },
+        "textCase": {
+          "type": "string",
+          "value": "none"
+        }
+      },
+      "$gdc-t-tittle-m-bol": {
+        "description": "18px - Bold |\ntitle-M-bold\n__________________________\nTitles are smaller than headline styles, and should be used for medium-emphasis text \nSuch as section title, sub title, popup title, table title, chart title...\nThere are 4 type sets (XL,L,M,S)",
+        "fontSize": {
+          "type": "dimension",
+          "value": 18
+        },
+        "textDecoration": {
+          "type": "string",
+          "value": "none"
+        },
+        "fontFamily": {
+          "type": "string",
+          "value": "Noto Sans KR"
+        },
+        "fontWeight": {
+          "type": "number",
+          "value": 700
+        },
+        "fontStyle": {
+          "type": "string",
+          "value": "normal"
+        },
+        "fontStretch": {
+          "type": "string",
+          "value": "normal"
+        },
+        "letterSpacing": {
+          "type": "dimension",
+          "value": 0
+        },
+        "lineHeight": {
+          "type": "dimension",
+          "value": 28
+        },
+        "paragraphIndent": {
+          "type": "dimension",
+          "value": 0
+        },
+        "paragraphSpacing": {
+          "type": "dimension",
+          "value": 0
+        },
+        "textCase": {
+          "type": "string",
+          "value": "none"
+        }
+      },
+      "$gdc-t-tittle-s-bol": {
+        "description": "16px - Bold |\ntitle-S-bold\n__________________________\nTitles are smaller than headline styles, and should be used for medium-emphasis text \nSuch as section title, sub title, popup title, table title, chart title...\nThere are 4 type sets (XL,L,M,S)",
+        "fontSize": {
+          "type": "dimension",
+          "value": 16
+        },
+        "textDecoration": {
+          "type": "string",
+          "value": "none"
+        },
+        "fontFamily": {
+          "type": "string",
+          "value": "Noto Sans KR"
+        },
+        "fontWeight": {
+          "type": "number",
+          "value": 700
+        },
+        "fontStyle": {
+          "type": "string",
+          "value": "normal"
+        },
+        "fontStretch": {
+          "type": "string",
+          "value": "normal"
+        },
+        "letterSpacing": {
+          "type": "dimension",
+          "value": 0
+        },
+        "lineHeight": {
+          "type": "dimension",
+          "value": 24
+        },
+        "paragraphIndent": {
+          "type": "dimension",
+          "value": 0
+        },
+        "paragraphSpacing": {
+          "type": "dimension",
+          "value": 0
+        },
+        "textCase": {
+          "type": "string",
+          "value": "none"
+        }
+      }
+    },
+    "components": {
+      "$gdc-t-comp-l-bol": {
+        "description": "16px - Bold |\ncomponent-L-bold\n________________________\nUsing for text inside large component \n\nsuch as button, menu, tab, lnb,gnb,chips,text field, drop down, date pciker, steps...",
+        "fontSize": {
+          "type": "dimension",
+          "value": 16
+        },
+        "textDecoration": {
+          "type": "string",
+          "value": "none"
+        },
+        "fontFamily": {
+          "type": "string",
+          "value": "Noto Sans KR"
+        },
+        "fontWeight": {
+          "type": "number",
+          "value": 700
+        },
+        "fontStyle": {
+          "type": "string",
+          "value": "normal"
+        },
+        "fontStretch": {
+          "type": "string",
+          "value": "normal"
+        },
+        "letterSpacing": {
+          "type": "dimension",
+          "value": 0
+        },
+        "lineHeight": {
+          "type": "dimension",
+          "value": 28
+        },
+        "paragraphIndent": {
+          "type": "dimension",
+          "value": 0
+        },
+        "paragraphSpacing": {
+          "type": "dimension",
+          "value": 0
+        },
+        "textCase": {
+          "type": "string",
+          "value": "none"
+        }
+      },
+      "$gdc-t-comp-l-reg": {
+        "description": "16px - Regular |\ncomponent-L-regular\n________________________\nUsing for text inside large component \n\nsuch as button, menu, tab, lnb,gnb,chips,text field, drop down, date pciker, steps...",
+        "fontSize": {
+          "type": "dimension",
+          "value": 16
+        },
+        "textDecoration": {
+          "type": "string",
+          "value": "none"
+        },
+        "fontFamily": {
+          "type": "string",
+          "value": "Noto Sans KR"
+        },
+        "fontWeight": {
+          "type": "number",
+          "value": 400
+        },
+        "fontStyle": {
+          "type": "string",
+          "value": "normal"
+        },
+        "fontStretch": {
+          "type": "string",
+          "value": "normal"
+        },
+        "letterSpacing": {
+          "type": "dimension",
+          "value": 0
+        },
+        "lineHeight": {
+          "type": "dimension",
+          "value": 28
+        },
+        "paragraphIndent": {
+          "type": "dimension",
+          "value": 0
+        },
+        "paragraphSpacing": {
+          "type": "dimension",
+          "value": 0
+        },
+        "textCase": {
+          "type": "string",
+          "value": "none"
+        }
+      },
+      "$gdc-t-comp-m-bol": {
+        "description": "14px - Bold |\ncomponent-M-bold\n________________________\nUsing for text inside medium component \n\nsuch as button, menu, tab, lnb,gnb,chips,text field, drop down, date pciker, steps...",
+        "fontSize": {
+          "type": "dimension",
+          "value": 14
+        },
+        "textDecoration": {
+          "type": "string",
+          "value": "none"
+        },
+        "fontFamily": {
+          "type": "string",
+          "value": "Noto Sans KR"
+        },
+        "fontWeight": {
+          "type": "number",
+          "value": 700
+        },
+        "fontStyle": {
+          "type": "string",
+          "value": "normal"
+        },
+        "fontStretch": {
+          "type": "string",
+          "value": "normal"
+        },
+        "letterSpacing": {
+          "type": "dimension",
+          "value": 0
+        },
+        "lineHeight": {
+          "type": "dimension",
+          "value": 24
+        },
+        "paragraphIndent": {
+          "type": "dimension",
+          "value": 0
+        },
+        "paragraphSpacing": {
+          "type": "dimension",
+          "value": 0
+        },
+        "textCase": {
+          "type": "string",
+          "value": "none"
+        }
+      },
+      "$gdc-t-comp-m-med": {
+        "description": "14px - Medium\ncomponent-M-medium\n________________________\nUsing for text inside medium component \n\nsuch as button, menu, tab, lnb,gnb,chips,text field, drop down, date pciker, steps...",
+        "fontSize": {
+          "type": "dimension",
+          "value": 14
+        },
+        "textDecoration": {
+          "type": "string",
+          "value": "none"
+        },
+        "fontFamily": {
+          "type": "string",
+          "value": "Noto Sans KR"
+        },
+        "fontWeight": {
+          "type": "number",
+          "value": 500
+        },
+        "fontStyle": {
+          "type": "string",
+          "value": "normal"
+        },
+        "fontStretch": {
+          "type": "string",
+          "value": "normal"
+        },
+        "letterSpacing": {
+          "type": "dimension",
+          "value": 0
+        },
+        "lineHeight": {
+          "type": "dimension",
+          "value": 24
+        },
+        "paragraphIndent": {
+          "type": "dimension",
+          "value": 0
+        },
+        "paragraphSpacing": {
+          "type": "dimension",
+          "value": 0
+        },
+        "textCase": {
+          "type": "string",
+          "value": "none"
+        }
+      },
+      "$gdc-t-comp-m-reg": {
+        "description": "14px - Regular |\ncomponent-M-regular\n________________________\nUsing for text inside medium component \n\nsuch as button, menu, tab, lnb,gnb,chips,text field, drop down, date pciker, steps...",
+        "fontSize": {
+          "type": "dimension",
+          "value": 14
+        },
+        "textDecoration": {
+          "type": "string",
+          "value": "none"
+        },
+        "fontFamily": {
+          "type": "string",
+          "value": "Noto Sans KR"
+        },
+        "fontWeight": {
+          "type": "number",
+          "value": 400
+        },
+        "fontStyle": {
+          "type": "string",
+          "value": "normal"
+        },
+        "fontStretch": {
+          "type": "string",
+          "value": "normal"
+        },
+        "letterSpacing": {
+          "type": "dimension",
+          "value": 0
+        },
+        "lineHeight": {
+          "type": "dimension",
+          "value": 24
+        },
+        "paragraphIndent": {
+          "type": "dimension",
+          "value": 0
+        },
+        "paragraphSpacing": {
+          "type": "dimension",
+          "value": 0
+        },
+        "textCase": {
+          "type": "string",
+          "value": "none"
+        }
+      },
+      "$gdc-t-comp-s-bol": {
+        "description": "12px - Bold |\ncomponent-S-bold\n________________________\nUsing for text inside small component \n\nsuch as button, menu, tab, lnb,gnb,chips,text field, drop down, date pciker, steps...",
+        "fontSize": {
+          "type": "dimension",
+          "value": 12
+        },
+        "textDecoration": {
+          "type": "string",
+          "value": "none"
+        },
+        "fontFamily": {
+          "type": "string",
+          "value": "Noto Sans KR"
+        },
+        "fontWeight": {
+          "type": "number",
+          "value": 700
+        },
+        "fontStyle": {
+          "type": "string",
+          "value": "normal"
+        },
+        "fontStretch": {
+          "type": "string",
+          "value": "normal"
+        },
+        "letterSpacing": {
+          "type": "dimension",
+          "value": 0
+        },
+        "lineHeight": {
+          "type": "dimension",
+          "value": 18
+        },
+        "paragraphIndent": {
+          "type": "dimension",
+          "value": 0
+        },
+        "paragraphSpacing": {
+          "type": "dimension",
+          "value": 0
+        },
+        "textCase": {
+          "type": "string",
+          "value": "none"
+        }
+      },
+      "$gdc-t-comp-s-reg": {
+        "description": "12px - Regular |\ncomponent-S-regular\n________________________\nUsing for text inside small component \n\nsuch as button, menu, tab, lnb,gnb,chips,text field, drop down, date pciker, steps...",
+        "fontSize": {
+          "type": "dimension",
+          "value": 12
+        },
+        "textDecoration": {
+          "type": "string",
+          "value": "none"
+        },
+        "fontFamily": {
+          "type": "string",
+          "value": "Noto Sans KR"
+        },
+        "fontWeight": {
+          "type": "number",
+          "value": 400
+        },
+        "fontStyle": {
+          "type": "string",
+          "value": "normal"
+        },
+        "fontStretch": {
+          "type": "string",
+          "value": "normal"
+        },
+        "letterSpacing": {
+          "type": "dimension",
+          "value": 0
+        },
+        "lineHeight": {
+          "type": "dimension",
+          "value": 18
+        },
+        "paragraphIndent": {
+          "type": "dimension",
+          "value": 0
+        },
+        "paragraphSpacing": {
+          "type": "dimension",
+          "value": 0
+        },
+        "textCase": {
+          "type": "string",
+          "value": "none"
+        }
+      }
+    },
+    "body": {
+      "$gdc-t-body-m-bol": {
+        "description": "14px - Bold |\nbody-M-bold\n________________________\nUse for information content \nwith higher emphasis than Medium & Regular \n\nUsing when text is:\n- Information content such as data table content, pop up content, chart content, card content",
+        "fontSize": {
+          "type": "dimension",
+          "value": 14
+        },
+        "textDecoration": {
+          "type": "string",
+          "value": "none"
+        },
+        "fontFamily": {
+          "type": "string",
+          "value": "Noto Sans KR"
+        },
+        "fontWeight": {
+          "type": "number",
+          "value": 700
+        },
+        "fontStyle": {
+          "type": "string",
+          "value": "normal"
+        },
+        "fontStretch": {
+          "type": "string",
+          "value": "normal"
+        },
+        "letterSpacing": {
+          "type": "dimension",
+          "value": 0
+        },
+        "lineHeight": {
+          "type": "dimension",
+          "value": 24
+        },
+        "paragraphIndent": {
+          "type": "dimension",
+          "value": 0
+        },
+        "paragraphSpacing": {
+          "type": "dimension",
+          "value": 0
+        },
+        "textCase": {
+          "type": "string",
+          "value": "none"
+        }
+      },
+      "$gdc-t-body-m-med": {
+        "description": "14 - Medium |\nbody-M-medium\n________________________\nUse for information content \n\nwith higher emphasis than Regular \nUsing when text is:\n- Information content such as data table content, pop up content, chart content, card content",
+        "fontSize": {
+          "type": "dimension",
+          "value": 14
+        },
+        "textDecoration": {
+          "type": "string",
+          "value": "none"
+        },
+        "fontFamily": {
+          "type": "string",
+          "value": "Noto Sans KR"
+        },
+        "fontWeight": {
+          "type": "number",
+          "value": 500
+        },
+        "fontStyle": {
+          "type": "string",
+          "value": "normal"
+        },
+        "fontStretch": {
+          "type": "string",
+          "value": "normal"
+        },
+        "letterSpacing": {
+          "type": "dimension",
+          "value": 0
+        },
+        "lineHeight": {
+          "type": "dimension",
+          "value": 24
+        },
+        "paragraphIndent": {
+          "type": "dimension",
+          "value": 0
+        },
+        "paragraphSpacing": {
+          "type": "dimension",
+          "value": 0
+        },
+        "textCase": {
+          "type": "string",
+          "value": "none"
+        }
+      },
+      "$gdc-t-body-m-reg": {
+        "description": "14px - Regular |\nbody-M-regular\n________________________\nUsing when text is:\n- Information content such as data table content, pop up content, chart content, card content",
+        "fontSize": {
+          "type": "dimension",
+          "value": 14
+        },
+        "textDecoration": {
+          "type": "string",
+          "value": "none"
+        },
+        "fontFamily": {
+          "type": "string",
+          "value": "Noto Sans KR"
+        },
+        "fontWeight": {
+          "type": "number",
+          "value": 400
+        },
+        "fontStyle": {
+          "type": "string",
+          "value": "normal"
+        },
+        "fontStretch": {
+          "type": "string",
+          "value": "normal"
+        },
+        "letterSpacing": {
+          "type": "dimension",
+          "value": 0
+        },
+        "lineHeight": {
+          "type": "dimension",
+          "value": 24
+        },
+        "paragraphIndent": {
+          "type": "dimension",
+          "value": 0
+        },
+        "paragraphSpacing": {
+          "type": "dimension",
+          "value": 0
+        },
+        "textCase": {
+          "type": "string",
+          "value": "none"
+        }
+      },
+      "$gdc-t-body-s-bol": {
+        "description": "12px - Bold |\nbody-S-bold\n_____________________\nUsing for smaller content such as chart label, legend",
+        "fontSize": {
+          "type": "dimension",
+          "value": 12
+        },
+        "textDecoration": {
+          "type": "string",
+          "value": "none"
+        },
+        "fontFamily": {
+          "type": "string",
+          "value": "Noto Sans KR"
+        },
+        "fontWeight": {
+          "type": "number",
+          "value": 700
+        },
+        "fontStyle": {
+          "type": "string",
+          "value": "normal"
+        },
+        "fontStretch": {
+          "type": "string",
+          "value": "normal"
+        },
+        "letterSpacing": {
+          "type": "dimension",
+          "value": 0
+        },
+        "lineHeight": {
+          "type": "dimension",
+          "value": 18
+        },
+        "paragraphIndent": {
+          "type": "dimension",
+          "value": 0
+        },
+        "paragraphSpacing": {
+          "type": "dimension",
+          "value": 0
+        },
+        "textCase": {
+          "type": "string",
+          "value": "none"
+        }
+      },
+      "$gdc-t-body-s-reg": {
+        "description": "12px - Regular |\nbody-S-regular\n_____________________\nUsing for smaller content such as chart label, legend",
+        "fontSize": {
+          "type": "dimension",
+          "value": 12
+        },
+        "textDecoration": {
+          "type": "string",
+          "value": "none"
+        },
+        "fontFamily": {
+          "type": "string",
+          "value": "Noto Sans KR"
+        },
+        "fontWeight": {
+          "type": "number",
+          "value": 400
+        },
+        "fontStyle": {
+          "type": "string",
+          "value": "normal"
+        },
+        "fontStretch": {
+          "type": "string",
+          "value": "normal"
+        },
+        "letterSpacing": {
+          "type": "dimension",
+          "value": 0
+        },
+        "lineHeight": {
+          "type": "dimension",
+          "value": 18
+        },
+        "paragraphIndent": {
+          "type": "dimension",
+          "value": 0
+        },
+        "paragraphSpacing": {
+          "type": "dimension",
+          "value": 0
+        },
+        "textCase": {
+          "type": "string",
+          "value": "none"
+        }
+      }
+    },
+    "link": {
+      "$gdc-t-link-m-reg": {
+        "description": "14px - Regular |\nlink-M-regular\n_______________________\nuse for text link",
+        "fontSize": {
+          "type": "dimension",
+          "value": 14
+        },
+        "textDecoration": {
+          "type": "string",
+          "value": "underline"
+        },
+        "fontFamily": {
+          "type": "string",
+          "value": "Noto Sans KR"
+        },
+        "fontWeight": {
+          "type": "number",
+          "value": 400
+        },
+        "fontStyle": {
+          "type": "string",
+          "value": "normal"
+        },
+        "fontStretch": {
+          "type": "string",
+          "value": "normal"
+        },
+        "letterSpacing": {
+          "type": "dimension",
+          "value": 0
+        },
+        "lineHeight": {
+          "type": "dimension",
+          "value": 24
+        },
+        "paragraphIndent": {
+          "type": "dimension",
+          "value": 0
+        },
+        "paragraphSpacing": {
+          "type": "dimension",
+          "value": 0
+        },
+        "textCase": {
+          "type": "string",
+          "value": "none"
+        }
+      },
+      "$gdc-t-link-s-reg": {
+        "description": "12px - Regular |\nlink-S-regular\n_______________________\nuse for text link smaller than M",
+        "fontSize": {
+          "type": "dimension",
+          "value": 12
+        },
+        "textDecoration": {
+          "type": "string",
+          "value": "underline"
+        },
+        "fontFamily": {
+          "type": "string",
+          "value": "Noto Sans KR"
+        },
+        "fontWeight": {
+          "type": "number",
+          "value": 400
+        },
+        "fontStyle": {
+          "type": "string",
+          "value": "normal"
+        },
+        "fontStretch": {
+          "type": "string",
+          "value": "normal"
+        },
+        "letterSpacing": {
+          "type": "dimension",
+          "value": 0
+        },
+        "lineHeight": {
+          "type": "dimension",
+          "value": 18
+        },
+        "paragraphIndent": {
+          "type": "dimension",
+          "value": 0
+        },
+        "paragraphSpacing": {
+          "type": "dimension",
+          "value": 0
+        },
+        "textCase": {
+          "type": "string",
+          "value": "none"
+        }
+      }
+    },
+    "caption": {
+      "$gdc-t-caption-m-med": {
+        "description": "12px - Medium | All caps\ncaption-M-medium\n_______________________",
+        "fontSize": {
+          "type": "dimension",
+          "value": 12
+        },
+        "textDecoration": {
+          "type": "string",
+          "value": "none"
+        },
+        "fontFamily": {
+          "type": "string",
+          "value": "Noto Sans KR"
+        },
+        "fontWeight": {
+          "type": "number",
+          "value": 500
+        },
+        "fontStyle": {
+          "type": "string",
+          "value": "normal"
+        },
+        "fontStretch": {
+          "type": "string",
+          "value": "normal"
+        },
+        "letterSpacing": {
+          "type": "dimension",
+          "value": 0
+        },
+        "lineHeight": {
+          "type": "dimension",
+          "value": 20
+        },
+        "paragraphIndent": {
+          "type": "dimension",
+          "value": 0
+        },
+        "paragraphSpacing": {
+          "type": "dimension",
+          "value": 0
+        },
+        "textCase": {
+          "type": "string",
+          "value": "uppercase"
+        }
+      },
+      "$gdc-t-caption-m-reg": {
+        "description": "12px - Regular\ncaption-M-regular",
+        "fontSize": {
+          "type": "dimension",
+          "value": 12
+        },
+        "textDecoration": {
+          "type": "string",
+          "value": "none"
+        },
+        "fontFamily": {
+          "type": "string",
+          "value": "Noto Sans KR"
+        },
+        "fontWeight": {
+          "type": "number",
+          "value": 400
+        },
+        "fontStyle": {
+          "type": "string",
+          "value": "normal"
+        },
+        "fontStretch": {
+          "type": "string",
+          "value": "normal"
+        },
+        "letterSpacing": {
+          "type": "dimension",
+          "value": 0
+        },
+        "lineHeight": {
+          "type": "dimension",
+          "value": 20
+        },
+        "paragraphIndent": {
+          "type": "dimension",
+          "value": 0
+        },
+        "paragraphSpacing": {
+          "type": "dimension",
+          "value": 0
+        },
+        "textCase": {
+          "type": "string",
+          "value": "none"
+        }
+      }
+    },
+    "paragraph": {
+      "$gdc-t-para-m-reg": {
+        "description": "sử dụng trong text area, th text nhiều dòng",
+        "fontSize": {
+          "type": "dimension",
+          "value": 14
+        },
+        "textDecoration": {
+          "type": "string",
+          "value": "none"
+        },
+        "fontFamily": {
+          "type": "string",
+          "value": "Noto Sans KR"
+        },
+        "fontWeight": {
+          "type": "number",
+          "value": 400
+        },
+        "fontStyle": {
+          "type": "string",
+          "value": "normal"
+        },
+        "fontStretch": {
+          "type": "string",
+          "value": "normal"
+        },
+        "letterSpacing": {
+          "type": "dimension",
+          "value": 0
+        },
+        "lineHeight": {
+          "type": "dimension",
+          "value": 22
+        },
+        "paragraphIndent": {
+          "type": "dimension",
+          "value": 0
+        },
+        "paragraphSpacing": {
+          "type": "dimension",
+          "value": 0
+        },
+        "textCase": {
+          "type": "string",
+          "value": "none"
+        }
+      }
+    }
+  }
+}
